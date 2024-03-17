@@ -1,0 +1,74 @@
+What is React?
+    - open source library for building user Interfaces
+    - not a framework
+    - Focus on UI
+    - rich ecosystem
+React is declarative
+    - Tell react what toy want and react will build the actual UI
+    - React will handle efficiently updating and rendering of the components
+    - DOM updates are handle gracefully in react
+Why React
+    - Seamlessly integrate react into any of your application 
+    - Portion of you page or complete page ir even entire application itself
+    - React native for mobile application
+Component
+    - Represents a part of a user interface
+    - They are re-usable and can be nested inside other components  
+Component types
+    - Stateless Functional Component
+    - Sateful Class Component
+
+Functional Component
+    - Simple functions
+    - Use func components as much as possible 
+    - Absence of this Keyword 
+    - Solution without using state 
+    - Mainly responsible for the UI
+    - Dumb/Presentaional
+Class Component
+    - More feature rich
+    - Mainteain their own private Data - state 
+    - Complex UI logic
+    - Provide lifecycle hooks
+    - Stateful/ Smart/ Container
+
+Hooks
+    - no breaking changes.
+    - Completely opt-in & 100% Backward Compatible.
+    - What ever we learned so far in this series still holds good.
+    - Using state, lifecycle methods and 'this' binding.
+
+JSX 
+    - JavaScript XML (JSX) - Extension to the JavaScript language Syntax.
+    - Write XML-like code for elements and components.
+    - JSX tags have a tag name, attributes, and children.
+    - JSX is not a neccessity to write react applications.
+    - JSX makes your react code simpler and elegant.
+    - JSX ultimately transpiles to pure javascript which is understood  by the browser.
+
+JSX Differences
+    - class => className
+    - for => htmlFor
+    - camelCase property naming convention 
+        onclick => onClick
+        tabindex => tabIndex
+
+Props                       &                       State
+Props get passed to the Component                   State is manage within the component
+function parameters                                 Variables declared in the function body
+props are immutable                                 State can be changed
+Accessible:
+props - functional components                       useState Hook - Functional Components
+this.props - class components                       this.state - class Components
+
+Conditional Rendering -- part 10
+1. if/else
+2. Elements Variables
+3. Ternary conditional operator
+4. Short Circuit Operator
+
+List and Keys 
+    A "Key" is a special string attribute you need to include when creating list of elements.
+    Keys give the element a stable identity 
+    Keys help react identify which items have changed, are added, or are removed. 
+    Help in efficient update of the user interface.

@@ -1,0 +1,6 @@
+What is Higher Order Component(HOC)?
+____________________________________
+A pattern where function takes a Component as an argument and returns a new component.
+
+const NewComponent = higherOrderComponent( originalComponent )
+const EnhancedComponent = higherOrderComponent( originalComponent )

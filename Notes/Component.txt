@@ -1,0 +1,6 @@
+Regular Component
+    does not implement the shouldComponentUpdate method. it always return true by default.
+
+
+Pure Component 
+    implements shouldComponentUpdate with a shallow props and state comparison.
